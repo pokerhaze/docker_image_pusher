@@ -16,7 +16,6 @@ ruby:3.1
 php:8.0
 redis:7.0
 elasticsearch:8.15.0
-kibana:8.0
 jenkins/jenkins:lts
 traefik:v2.5
 portainer/portainer-ce:latest
