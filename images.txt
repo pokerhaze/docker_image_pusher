@@ -1,3 +1,5 @@
+eatmoreapple/wxapiserver:latest
+redis:alpine
 dannicool/docker-wechatbot-webhook
 danbai225/wechat-bot:latest
 nginx:latest
