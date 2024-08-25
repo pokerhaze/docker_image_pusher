@@ -1,6 +1,9 @@
-eatmoreapple/wxapiserver:latest
+solarkennedy/wine-x11-novnc-docker
+scottyhardy/docker-wine
+toetje585/arch-wine-vnc
+webvnc/wine
+furacas/wine-vnc-box
 redis:alpine
-dannicool/docker-wechatbot-webhook
 danbai225/wechat-bot:latest
 nginx:latest
 alpine:latest
