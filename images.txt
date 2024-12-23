@@ -1,6 +1,5 @@
 python:3.10-slim
 solarkennedy/wine-x11-novnc-docker
-toetje585/arch-wine-vnc
 webvnc/wine
 furacas/wine-vnc-box
 redis:alpine
