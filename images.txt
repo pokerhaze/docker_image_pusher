@@ -24,8 +24,8 @@ fedora:40
 fedora:latest
 
 # CentOS 8 Stream
-centos:8
-centos:7
+# centos:8
+# centos:7
 
 # Distroless Base
 gcr.io/distroless/base:nonroot-cc
