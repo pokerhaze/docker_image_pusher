@@ -32,8 +32,8 @@ fedora:latest
 # gcr.io/distroless/base:latest
 
 # BusyBox uclibc 版
-busybox:uclibc-1.36
-busybox:uclibc
+busybox:1.37.0-uclibc
+busybox:stable-uclibc
 
 # Alpine Edge 開發版
 alpine:edge
