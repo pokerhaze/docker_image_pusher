@@ -61,11 +61,8 @@ node:latest
 golang:1.22.7
 golang:latest
 
-# OpenJDK 17
-openjdk:17
-openjdk:latest
-
-# OpenJDK 21
+# OpenJDK 
+openjdk:17-ea-jdk-alpine
 openjdk:21
 openjdk:latest
 
