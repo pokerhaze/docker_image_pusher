@@ -1,41 +1,350 @@
-python:3.10-slim
-solarkennedy/wine-x11-novnc-docker
-webvnc/wine
-furacas/wine-vnc-box
-redis:alpine
-nginx:latest
+# 基礎系統與通用鏡像
+# 最新穩定版 Alpine（請視官方最新版調整）
+alpine:3.18
 alpine:latest
+
+# Ubuntu 22.04 LTS
+ubuntu:22.04
 ubuntu:latest
-mysql:latest
-postgres:latest
-mongo:latest
-httpd:latest
-python:3.10
-node:16
-golang:1.20
-openjdk:17
-openjdk:21
-ruby:3.1
-php:8.0
-redis:7.0
-elasticsearch:8.15.0
-jenkins/jenkins:lts
-traefik:v2.5
-portainer/portainer-ce:latest
-prom/prometheus:latest
-influxdb:latest
-caddy:latest
-bitnami/redis:latest
-bitnami/mysql:latest
-bitnami/postgresql:latest
-bitnami/nginx:latest
-bitnami/apache:latest
-bitnami/php-fpm:latest
-bitnami/wordpress:latest
-bitnami/grafana:latest
-mariadb:latest
-openresty/openresty:alpine
+
+# BusyBox 穩定版
+busybox:1.36
 busybox:latest
+
+# curl 官方鏡像
+curlimages/curl:8.3.0
 curlimages/curl:latest
-jupyter/base-notebook:latest
+
+# Debian 12 “Bookworm”
+debian:12
+debian:latest
+
+# Fedora 40
+fedora:40
+fedora:latest
+
+# CentOS 8 Stream
+centos:8
+centos:latest
+
+# Distroless Base
+gcr.io/distroless/base:nonroot-cc
+gcr.io/distroless/base:latest
+
+# BusyBox uclibc 版
+busybox:uclibc-1.36
+busybox:uclibc
+
+# Alpine Edge 開發版
+alpine:edge
+alpine:latest
+
+# 語言與開發環境
+
+# Python 3.10 最新穩定
+python:3.10.14
+python:latest
+
+# Python 3.12 最新穩定
+python:3.12.2
+python:latest
+
+# Node.js 18 LTS
+node:18.17.1
+node:latest
+
+# Node.js 20 最新穩定
+node:20.10.0
+node:latest
+
+# Golang 1.22 最新穩定
+golang:1.22.7
+golang:latest
+
+# OpenJDK 17
+openjdk:17.0.9
+openjdk:latest
+
+# OpenJDK 21
+openjdk:21.0.3
+openjdk:latest
+
+# Ruby 3.2
+ruby:3.2.2
+ruby:latest
+
+# PHP 8.2
+php:8.2.12
+php:latest
+
+# Rust 穩定版
+rust:1.71.1
+rust:latest
+
+# Deno 最新穩定
+denoland/deno:1.42.0
+denoland/deno:latest
+
+# .NET 8.0 最新補丁
+dotnet/aspnet:8.0.11
+dotnet/aspnet:latest
+
+# Web 伺服器與反向代理
+
+# Nginx 最新穩定
+nginx:1.25.2
+nginx:latest
+
+# Apache httpd 2.4
+httpd:2.4.63
+httpd:latest
+
+# Caddy 2.9
+caddy:2.9.4
+caddy:latest
+
+# Traefik 2.5
+traefik:v2.5.13
+traefik:latest
+
+# OpenResty Alpine
+openresty/openresty:1.21.4.1-alpine
+openresty/openresty:latest
+
+# HAProxy 2.8
+haproxy:2.8.4
+haproxy:latest
+
+# Envoy 1.29
+envoyproxy/envoy:v1.29.0
+envoyproxy/envoy:latest
+
+# 資料庫與快取
+
+# MySQL 8.0
+mysql:8.0.38
+mysql:latest
+
+# MariaDB 11.1
+mariadb:11.1
+mariadb:latest
+
+# PostgreSQL 15
+postgres:15.4
+postgres:latest
+
+# MongoDB 6.0
+mongo:6.0.12
+mongo:latest
+
+# Redis 7.0
+redis:7.0.11
+redis:latest
+
+# ClickHouse 最新穩定
+clickhouse/clickhouse-server:24.4.4.24-stable
+clickhouse/clickhouse-server:latest
+
+# TimescaleDB 2.13
+timescale/timescaledb:2.13.2-pg15
+timescale/timescaledb:latest
+
+# Cassandra 4.1
+cassandra:4.1.11
+cassandra:latest
+
+# Memcached 1.6
+memcached:1.6.21-alpine
+memcached:latest
+
+# RabbitMQ 3.12
+rabbitmq:3.12.10-management
+rabbitmq:latest
+
+# etcd 3.5
+etcd:3.5.15
+etcd:latest
+
+# 搜尋與時序資料
+
+# Elasticsearch 8.15
+elasticsearch:8.15.0
+elasticsearch:latest
+
+# OpenSearch 2.12
+opensearchproject/opensearch:2.12.0
+opensearchproject/opensearch:latest
+
+# Prometheus 2.47
+prom/prometheus:2.47.1
+prom/prometheus:latest
+
+# Grafana 10.4
+grafana/grafana:10.4.5
+grafana/grafana:latest
+
+# InfluxDB 2.9
+influxdb:2.9.8
+influxdb:latest
+
+# QuestDB 7.2
+questdb/questdb:7.2.0
+questdb/questdb:latest
+
+# Zookeeper 3.9
+zookeeper:3.9.12
+zookeeper:latest
+
+# 應用與平台鏡像
+
+# Jenkins LTS
+jenkins/jenkins:2.435.1-lts
+jenkins/jenkins:latest
+
+# Portainer CE
+portainer/portainer-ce:2.18.0
+portainer/portainer-ce:latest
+
+# WordPress 6.5
+bitnami/wordpress:6.5.1
+bitnami/wordpress:latest
+
+# Ghost 6.56
+ghost:6.56.9
 ghost:latest
+
+# GitLab CE
+gitlab/gitlab-ce:16.9.4
+gitlab/gitlab-ce:latest
+
+# Gitea 1.20
+gitea/gitea:1.20.14
+gitea/gitea:latest
+
+# Nexus3
+sonatype/nexus3:3.49.2
+sonatype/nexus3:latest
+
+# Nextcloud 27
+nextcloud:27.0.4
+nextcloud:latest
+
+# AdGuard Home
+adguard/adguardhome:v0.107.33
+adguard/adguardhome:latest
+
+# Jellyfin 10.10
+jellyfin/jellyfin:10.10.6
+jellyfin/jellyfin:latest
+
+# Vaultwarden
+vaultwarden/server:1.30.0
+vaultwarden/server:latest
+
+# Netdata
+netdata/netdata:v1.45.1
+netdata/netdata:latest
+
+# Uptime Kuma
+louislam/uptime-kuma:1.32.2
+louislam/uptime-kuma:latest
+
+# n8n
+n8n-io/n8n:0.225.0
+n8n-io/n8n:latest
+
+# Duplicati
+duplicati/duplicati:2.0.7.1
+duplicati/duplicati:latest
+
+# Immich
+immich/immich:0.7.3
+immich/immich:latest
+
+# 桌面與 Wine 模擬環境
+
+# Wine X11 VNC
+solarkennedy/wine-x11-novnc-docker:latest
+solarkennedy/wine-x11-novnc-docker:latest
+
+# Ubuntu LXDE VNC 桌面
+dorowu/ubuntu-desktop-lxde-vnc:22.04
+dorowu/ubuntu-desktop-lxde-vnc:latest
+
+# Chrome 桌面
+jlesage/chrome:latest
+jlesage/chrome:latest
+
+# IceWM noVNC
+jessfraz/icewm-novnc:latest
+jessfraz/icewm-novnc:latest
+
+# 資料科學與筆記環境
+
+# Jupyter 基礎 Notebook
+jupyter/base-notebook:latest
+jupyter/base-notebook:latest
+
+# TensorFlow GPU
+tensorflow/tensorflow:2.13.0-gpu
+tensorflow/tensorflow:latest
+
+# PyTorch CUDA
+pytorch/pytorch:2.1.0-cuda11.8
+pytorch/pytorch:latest
+
+# RStudio Server
+rstudio/rstudio-server:2024.03.0-421
+rstudio/rstudio-server:latest
+
+# 安全測試與程式碼掃描
+
+# Kali Linux
+kalilinux/kali-linux-docker:2024.1
+kalilinux/kali-linux-docker:latest
+
+# Trivy
+aquasec/trivy:0.45.0
+aquasec/trivy:latest
+
+# OWASP ZAP
+owasp/zap2docker-stable:2.13.0
+owasp/zap2docker-stable:latest
+
+# SonarQube
+sonarqube:10.2.0-community
+sonarqube:latest
+
+# Grype
+grype:0.75.0
+grype:latest
+
+# 補充分類（Tools / CI / Infra / 備份）
+
+# Docker CLI
+docker:24.0.5
+docker:latest
+
+# Terraform
+hashicorp/terraform:1.8.9
+hashicorp/terraform:latest
+
+# ArgoCD
+argoproj/argocd:2.10.7
+argoproj/argocd:latest
+
+# Flux
+fluxcd/flux:0.46.0
+fluxcd/flux:latest
+
+# Rclone
+rclone/rclone:1.64.4
+rclone/rclone:latest
+
+# k3s
+rancher/k3s:v1.27.5-k3s1
+rancher/k3s:latest
+
+# k3d
+k3d-io/k3d:v5.4.1
+k3d-io/k3d:latest
