@@ -28,8 +28,8 @@ fedora:latest
 # centos:7
 
 # Distroless Base
-gcr.io/distroless/base:nonroot-cc
-gcr.io/distroless/base:latest
+# gcr.io/distroless/base:nonroot-cc
+# gcr.io/distroless/base:latest
 
 # BusyBox uclibc 版
 busybox:uclibc-1.36
