@@ -62,11 +62,11 @@ golang:1.22.7
 golang:latest
 
 # OpenJDK 17
-openjdk:17.0.9
+openjdk:17
 openjdk:latest
 
 # OpenJDK 21
-openjdk:21.0.3
+openjdk:21
 openjdk:latest
 
 # Ruby 3.2
