@@ -64,7 +64,6 @@ golang:latest
 # OpenJDK 
 openjdk:17-ea-jdk-alpine
 openjdk:21-ea-slim-bullseye
-openjdk:latest
 
 # Ruby 3.2
 ruby:3.2.2
