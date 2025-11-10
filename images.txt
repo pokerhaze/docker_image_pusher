@@ -82,8 +82,8 @@ denoland/deno:1.42.0
 denoland/deno:latest
 
 # .NET 8.0 最新補丁
-dotnet/aspnet:8.0.11
-dotnet/aspnet:latest
+# dotnet/aspnet:8.0.11
+# dotnet/aspnet:latest
 
 # Web 伺服器與反向代理
 
