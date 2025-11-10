@@ -257,23 +257,19 @@ duplicati/duplicati:latest
 immich/immich:0.7.3
 immich/immich:latest
 
-# 桌面與 Wine 模擬環境
-
-# Wine X11 VNC
-solarkennedy/wine-x11-novnc-docker:latest
-solarkennedy/wine-x11-novnc-docker:latest
-
-# Ubuntu LXDE VNC 桌面
-dorowu/ubuntu-desktop-lxde-vnc:22.04
-dorowu/ubuntu-desktop-lxde-vnc:latest
-
-# Chrome 桌面
-jlesage/chrome:latest
-jlesage/chrome:latest
-
-# IceWM noVNC
-jessfraz/icewm-novnc:latest
-jessfraz/icewm-novnc:latest
+# 桌面與模擬環境
+# VNC
+jlesage/firefox:v1.16.0
+jlesage/firefox:latest
+mrcolorrain/vnc-browser:alpine
+deusec/browser-novnc:latest
+fhriley/firefox:latest
+rlagutinhub/docker.novnc:latest
+accetto/xubuntu-vnc-novnc-firefox:latest
+enefry/firefox-novnc:latest
+jrsmile/ubuntu-novnc-firefox:latest
+oldiy/firefox-novnc:latest
+oldiy/firefox-enpass-novnc:latest
 
 # 資料科學與筆記環境
 
