@@ -112,8 +112,7 @@ haproxy:2.8.4
 haproxy:latest
 
 # Envoy 1.29
-envoyproxy/envoy:v1.29.0
-envoyproxy/envoy:latest
+envoyproxy/envoy:v1.36.2
 
 # 資料庫與快取
 
