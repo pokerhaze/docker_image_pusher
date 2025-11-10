@@ -96,7 +96,7 @@ httpd:2.4.63
 httpd:latest
 
 # Caddy 2.9
-caddy:2.9.4
+caddy:2.10.2-alpine
 caddy:latest
 
 # Traefik 2.5
