@@ -157,8 +157,7 @@ rabbitmq:3.12.10-management
 rabbitmq:latest
 
 # etcd 3.5
-etcd:3.5.15
-etcd:latest
+bitnami/etcd:latest
 
 # 搜尋與時序資料
 
@@ -171,7 +170,7 @@ opensearchproject/opensearch:2.12.0
 opensearchproject/opensearch:latest
 
 # Prometheus 2.47
-prom/prometheus:2.47.1
+prom/prometheus:v2.47.1
 prom/prometheus:latest
 
 # Grafana 10.4
