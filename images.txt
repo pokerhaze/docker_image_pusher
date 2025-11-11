@@ -141,8 +141,8 @@ clickhouse/clickhouse-server:25.10.1
 clickhouse/clickhouse-server:latest
 
 # TimescaleDB 2.13
-timescale/timescaledb:2.13.2-pg15
-timescale/timescaledb:latest
+timescale/timescaledb:2.23.0-pg17
+timescale/timescaledb:latest-pg17
 
 # Cassandra 4.1
 cassandra:4.1.11
