@@ -156,8 +156,9 @@ memcached:latest
 rabbitmq:3.12.10-management
 rabbitmq:latest
 
-# etcd 3.5
-bitnami/etcd:latest
+# etcd
+bitnami/etcd
+gcr.io/etcd-development/etcd:v3.6.0
 
 # 搜尋與時序資料
 
