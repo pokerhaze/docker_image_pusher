@@ -161,9 +161,8 @@ bitnami/etcd:latest
 
 # 搜尋與時序資料
 
-# Elasticsearch 8.15
-elasticsearch:8.15.0
-elasticsearch:latest
+# Elasticsearch 
+elasticsearch:9.2.0
 
 # OpenSearch 2.12
 opensearchproject/opensearch:2.12.0
@@ -177,55 +176,39 @@ prom/prometheus:latest
 grafana/grafana:10.4.5
 grafana/grafana:latest
 
-# InfluxDB 2.9
-influxdb:2.9.8
-influxdb:latest
-
-# QuestDB 7.2
-questdb/questdb:7.2.0
-questdb/questdb:latest
-
-# Zookeeper 3.9
-zookeeper:3.9.12
-zookeeper:latest
+# Zookeeper
+zookeeper:3.9.3
 
 # 應用與平台鏡像
 
 # Jenkins LTS
-jenkins/jenkins:2.435.1-lts
+jenkins/jenkins:jdk17
+jenkins/jenkins:jdk21
 jenkins/jenkins:latest
 
 # Portainer CE
-portainer/portainer-ce:2.18.0
-portainer/portainer-ce:latest
+portainer/portainer-ce:2.33.3
+portainer/portainer-ce:lts
 
-# WordPress 6.5
-bitnami/wordpress:6.5.1
-bitnami/wordpress:latest
-
-# Ghost 6.56
-ghost:6.56.9
+# Ghost 
+ghost:6.7.0
 ghost:latest
 
 # GitLab CE
-gitlab/gitlab-ce:16.9.4
+gitlab/gitlab-ce:18.4.3-ce.0
 gitlab/gitlab-ce:latest
 
-# Gitea 1.20
-gitea/gitea:1.20.14
+# Gitea 
+gitea/gitea:1.25
 gitea/gitea:latest
 
 # Nexus3
-sonatype/nexus3:3.49.2
+sonatype/nexus3:3.86.0
 sonatype/nexus3:latest
 
-# Nextcloud 27
-nextcloud:27.0.4
+# Nextcloud
+nextcloud:32.0
 nextcloud:latest
-
-# AdGuard Home
-adguard/adguardhome:v0.107.33
-adguard/adguardhome:latest
 
 # Jellyfin 10.10
 jellyfin/jellyfin:10.10.6
@@ -240,20 +223,12 @@ netdata/netdata:v1.45.1
 netdata/netdata:latest
 
 # Uptime Kuma
-louislam/uptime-kuma:1.32.2
+louislam/uptime-kuma:2.0.2
 louislam/uptime-kuma:latest
 
 # n8n
-n8n-io/n8n:0.225.0
-n8n-io/n8n:latest
-
-# Duplicati
-duplicati/duplicati:2.0.7.1
-duplicati/duplicati:latest
-
-# Immich
-immich/immich:0.7.3
-immich/immich:latest
+n8n-o/n8n:1.119.1
+n8nio/n8n:latest
 
 # 桌面與模擬環境
 # VNC
@@ -264,7 +239,7 @@ deusec/browser-novnc:latest
 fhriley/firefox:latest
 rlagutinhub/docker.novnc:latest
 accetto/xubuntu-vnc-novnc-firefox:latest
-enefry/firefox-novnc:latest
+selenium/node-firefox:latest
 jrsmile/ubuntu-novnc-firefox:latest
 oldiy/firefox-novnc:latest
 oldiy/firefox-enpass-novnc:latest
@@ -279,35 +254,15 @@ jupyter/base-notebook:latest
 tensorflow/tensorflow:2.13.0-gpu
 tensorflow/tensorflow:latest
 
-# PyTorch CUDA
-pytorch/pytorch:2.1.0-cuda11.8
-pytorch/pytorch:latest
-
-# RStudio Server
-rstudio/rstudio-server:2024.03.0-421
-rstudio/rstudio-server:latest
-
 # 安全測試與程式碼掃描
-
-# Kali Linux
-kalilinux/kali-linux-docker:2024.1
-kalilinux/kali-linux-docker:latest
 
 # Trivy
 aquasec/trivy:0.45.0
 aquasec/trivy:latest
 
-# OWASP ZAP
-owasp/zap2docker-stable:2.13.0
-owasp/zap2docker-stable:latest
-
 # SonarQube
 sonarqube:10.2.0-community
 sonarqube:latest
-
-# Grype
-grype:0.75.0
-grype:latest
 
 # 補充分類（Tools / CI / Infra / 備份）
 
@@ -315,26 +270,9 @@ grype:latest
 docker:24.0.5
 docker:latest
 
-# Terraform
-hashicorp/terraform:1.8.9
-hashicorp/terraform:latest
-
-# ArgoCD
-argoproj/argocd:2.10.7
-argoproj/argocd:latest
-
-# Flux
-fluxcd/flux:0.46.0
-fluxcd/flux:latest
-
 # Rclone
-rclone/rclone:1.64.4
-rclone/rclone:latest
+rclone/rclone:v1.71-stable
 
 # k3s
 rancher/k3s:v1.27.5-k3s1
 rancher/k3s:latest
-
-# k3d
-k3d-io/k3d:v5.4.1
-k3d-io/k3d:latest
