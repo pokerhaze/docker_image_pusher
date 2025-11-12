@@ -227,8 +227,8 @@ louislam/uptime-kuma:2.0.2
 louislam/uptime-kuma:latest
 
 # n8n
-n8n-io/n8n:1.119.1
-n8n-io/n8n:latest
+n8nio/n8n:1.119.1
+n8nio/n8n:latest
 
 # 桌面與模擬環境
 # VNC
